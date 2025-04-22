@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest", 
     "build": "webpack src/app.js -o public/bundle.js",
     "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting"
   },
@@ -21,3 +21,5 @@
     "terser": "^4.6.6"
   }
 }
+
+
